@@ -17,22 +17,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-//#define RGBLIGHT_ANIMATIONS
+#   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
 
-#define RGB_MATRIX_DEFAULT_VAL 176
-
-//#    define RGBLED_NUM       66 // Number of LEDs
 #    define RGB_MATRIX_LED_COUNT 66
 #    define DRIVER_LED_TOTAL RGBLED_NUM
 #    define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 
-//#define RGB_MATRIX_NANIWA
-
-#   define RGB_MATRIX_KEYPRESSES // reacts to keypresses
-#define EECONFIG_RGB_MATRIX (uint32_t *)28
-
 #define RGB_MATRIX_NANIWA
-
 
 #define ENABLE_RGB_MATRIX_ALPHAS_MODS
 #define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN
